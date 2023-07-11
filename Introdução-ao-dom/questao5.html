@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao DOM</title>
+    <h1 style="text-align:center;">Questão 5</h1>
+</head>
+<body>
+    <h4> *Crie um exemplo em que uma propriedade CSS de um elemento HTML é alterada
+        via DOM baseada na documentação da página:
+        https://www.w3schools.com/js/js_htmldom_css.asp</h4>
+    <br>
+    <p style="text-align: center;">Aprecie as pequenas coisas</p>
+    <p style="text-align: center;">Aprecie as pequenas coisas</p>
+
+    <button onclick="colorir('p', 'purple')">Colorir</button>
+    <script>
+        function colorir(tag, color) {
+        let elementos = document.getElementsByTagName(tag)
+
+        for (const elemento of elementos) {
+            elemento.style.color = color
+        }
+    }
+    </script>
+</body>
+</html>

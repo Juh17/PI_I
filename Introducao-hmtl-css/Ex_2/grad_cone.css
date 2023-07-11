@@ -1,0 +1,27 @@
+body {
+    padding: 20px;
+    background-color: rgb(226, 162, 103);
+}
+.linear-gradient {
+    display: inline-table;
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+#grad_cone1 {
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(rgb(226, 61, 199) 0deg 120deg, rgb(127, 17, 201) 120deg 240deg, rgb(214, 30, 6) 240deg 360deg);
+}
+#grad_cone2 {
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(rgb(219, 40, 70) 0deg 90deg, rgb(20, 228, 210) 270deg 360deg);
+}
+#grad_cone3 {
+    width: 100%;
+    height: 100%;
+    background: conic-gradient( at 30%,yellow, green);
+}
